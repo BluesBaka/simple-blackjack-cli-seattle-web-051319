@@ -39,7 +39,7 @@ def hit?(card_total)
 
     if i == 'h'
 
-     
+
      card_total += deal_card
 
     elsif i == 's'
@@ -58,5 +58,9 @@ end
 #####################################################
 
 def runner
-  # code runner here
+    welcome
+    initial_round
+    hit?
+    display_card_total
+    # code runner here
 end
