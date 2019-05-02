@@ -39,9 +39,9 @@ def hit?(card_total)
 
     if i == 'h'
      card_total + deal_card
-      display_card_total
+      display_card_total(card_total)
     elsif i == 's'
-     display_card_total
+     display_card_total(card_total)
     end
 end
 
