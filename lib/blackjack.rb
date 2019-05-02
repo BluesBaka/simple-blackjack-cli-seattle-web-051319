@@ -43,7 +43,7 @@ def hit?(card_total)
     elsif i == 's'
      display_card_total(card_total)
     end
-    prompt_user
+    
 end
 
 def invalid_command
